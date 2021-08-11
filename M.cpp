@@ -37,7 +37,7 @@ void solve(int t) {
         }
     }
     // if(k) {
-    //     dp[n][k] = ( (dp[n][k]+ mod +(mod- dp[n][k-1])%mod )%mod + mod)%mod;
+    //     dp[n][k] = ( (dp[n][k]+ mod +(mod- dp[n][k-1])%mod )%mod + mod)%mod; 
     // }
     cout<<dp[n][k]<<endl;
 }
