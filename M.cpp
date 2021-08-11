@@ -26,6 +26,7 @@ void solve(int t) {
     for(int i = 0; i <= n; i++) {
         dp[i][0] = 1LL;
     }
+    // Concept of optimization of Dp using prefix sum.
     for(int i = 1; i <= n; i++) {
         for(int j = 1; j <= k; j++) {
             if(j <= arr[i - 1]) {
