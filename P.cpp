@@ -59,7 +59,6 @@ void solve(int T) {
     cout<<ans<<endl;
 }
 
-
 // mian function 
 int main() {
 
